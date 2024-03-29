@@ -6,7 +6,7 @@ This is a repository for practicing react.
 
 ### Why React ?
 
-- React is a library created by facebook Meta
+- React is a library created by fb Meta
 - UI can be Interactive and Dynamic
 - Single page Applications (SPA)
 - When we request to browser :- DOM Elements tree (HTML) + CSS Style of each element + JS Helps modify DOM Based on user interactions
@@ -26,3 +26,7 @@ This is a repository for practicing react.
 - App components is root, holding all components together
 
 ### Create react app
+
+- packet.JSON is meta data
+
+01:08:23
