@@ -27,6 +27,18 @@ This is a repository for practicing react.
 
 ### Create react app
 
-- packet.JSON is meta data
+- packet.json is meta data
+- .js [general script, logic] vs .jsx [js XML]
 
-01:08:23
+### Create react component
+
+- components is js function
+- export default App
+- We define component as a function called functional components
+- Functional components are initially stateless
+- How jsx works can be understand using https://www.babeljs.io/repl
+- export enables the use of components to other parts of app
+- default export :- allows single default export
+- named export :- allows multiple exports
+- combined export :- export + default exports based on requirements
+- jsx function names must starts with capital case
