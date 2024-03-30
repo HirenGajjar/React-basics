@@ -48,9 +48,9 @@ This is a repository for practicing react.
 - Efficiency :- Reduce duplication of code and saves time
 - Maintainability :- Easy to debug and update or to make change
 
-
-
 ### Bootstrap
 
 - A free, open source front-end development framework
-- Mobile first, Responsive, 
+- Mobile first, Responsive
+
+2:30:0
