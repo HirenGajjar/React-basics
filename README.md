@@ -47,3 +47,10 @@ This is a repository for practicing react.
 - Consistency :- Use of components ensures the UI is consistence
 - Efficiency :- Reduce duplication of code and saves time
 - Maintainability :- Easy to debug and update or to make change
+
+
+
+### Bootstrap
+
+- A free, open source front-end development framework
+- Mobile first, Responsive, 
