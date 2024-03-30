@@ -42,3 +42,8 @@ This is a repository for practicing react.
 - named export :- allows multiple exports
 - combined export :- export + default exports based on requirements
 - jsx function names must starts with capital case
+
+- Modularity :- ability to separate and recombine components
+- Consistency :- Use of components ensures the UI is consistence
+- Efficiency :- Reduce duplication of code and saves time
+- Maintainability :- Easy to debug and update or to make change
