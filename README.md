@@ -53,4 +53,3 @@ This is a repository for practicing react.
 - A free, open source front-end development framework
 - Mobile first, Responsive
 
-2:30:0

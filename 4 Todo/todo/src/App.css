@@ -1,0 +1,28 @@
+
+
+
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 20px ;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+}
+
+
+.item-container,.todo-container{
+    text-align: left;
+    
+}
+
+
+.allrow{
+    margin:10px ;
+}
+
+.allBtn{
+    min-width: 80px;
+}
