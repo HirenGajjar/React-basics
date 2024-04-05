@@ -74,4 +74,6 @@ This is a repository for practicing react.
 
 ### Map Method
 
--    
+- convert one type of array with some calculation to another one   
+- Transform array element into the JSX
+- React saves the updates and re-renders them at once lowering the number of reloading, therefore it is good practice while rendering large number of data mainly arrays or API Calls with each item having a unique key value, which ensures the react to only update the new elements or items or only those who have updates, and rest of the items do not get re-render, and this all is possible because of unique key
