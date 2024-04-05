@@ -66,7 +66,6 @@ This is a repository for practicing react.
 ```Javascript
 
 <React.Fragment></React.Fragment>
-
 <></>
 
 ```
@@ -90,7 +89,3 @@ This is a repository for practicing react.
 
 - parse only from parent to child (downwards flow - one way data flow)
 - props are immutable
-
-### CSS Modules
-
-- When project gets scaled it is easy to get lost in maintaining css, therefore React came up with css modules which 
