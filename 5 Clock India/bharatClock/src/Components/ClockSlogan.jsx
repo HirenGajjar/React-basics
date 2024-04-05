@@ -2,7 +2,7 @@ let ClockSlogan = ()=>{
 
     return(
         <>
-                <p>Bharat Time</p>
+                <p className="lead">Bharat Time</p>
         </>
     )
     

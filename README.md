@@ -56,3 +56,7 @@ This is a repository for practicing react.
 ### Objects
 
 - Objects are not valid as a react child, so in currentTime instead passing the new variable 'time', we need to convert into the string using toLocalDateString().
+
+### Fragments
+
+-

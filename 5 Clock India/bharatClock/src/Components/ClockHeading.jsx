@@ -2,7 +2,7 @@ let ClockHeading = ()=>{
 
 return(
     <>
-    <h1>Bharat Clock</h1>
+    <h1 className="fw-bold">Bharat Clock</h1>
     </>
 )
 
