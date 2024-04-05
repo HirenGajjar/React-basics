@@ -4,8 +4,11 @@ const TodoItems = ({todoItems})=>{
     return (<>
     
     <div className="item-container">
-    <TodoItem date={'March - 3 -2024'} task={'Task one'}/>
-    <TodoItem date={'March - 5 -2024'} task={'Task two'}/>
+        {
+            todoItems.map((todoItems)=>
+            <TodoItem date={todoItems.date} task={todoItems.task}/>
+        )
+        }
     
      
   </div>

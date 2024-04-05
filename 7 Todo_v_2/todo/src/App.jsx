@@ -19,7 +19,7 @@ return <>
   
   <AppName/>
   <AddTodo/>
-  <TodoItems/>
+  <TodoItems todoItems={todoItems}/>
  
   </center>
 </>
