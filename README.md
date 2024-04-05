@@ -70,3 +70,8 @@ This is a repository for practicing react.
 <></>
 
 ```
+
+
+### Map Method
+
+-    

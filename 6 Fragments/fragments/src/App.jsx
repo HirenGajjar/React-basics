@@ -1,20 +1,18 @@
-import React from "react";
-import { useState } from "react";
+
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+let food = ['a','b','c','d','e'];
 
   return (
     <>
      <h1>Healthy food</h1>
-     <ul class="list-group">
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
-</ul>
+      <ul className="list-group">
+            { 
+                  food.map(item => <li className="list-group-item">{item}</li>)
+            }
+      </ul>
     </>
   )
 }
