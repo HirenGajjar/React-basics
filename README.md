@@ -53,3 +53,6 @@ This is a repository for practicing react.
 - A free, open source front-end development framework
 - Mobile first, Responsive
 
+### Objects
+
+- Objects are not valid as a react child, so in currentTime instead passing the new variable 'time', we need to convert into the string using toLocalDateString().
