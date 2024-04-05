@@ -88,4 +88,9 @@ This is a repository for practicing react.
 
 ### Passing data via props (properties)
 
-- parse only from parent to child
+- parse only from parent to child (downwards flow - one way data flow)
+- props are immutable
+
+### CSS Modules
+
+- When project gets scaled it is easy to get lost in maintaining css, therefore React came up with css modules which 

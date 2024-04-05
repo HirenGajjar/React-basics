@@ -8,7 +8,8 @@ function App() {
 
 
 
-  let food = ['a','b','c','d','e'];
+   let food = ['a','b','c','d','e','h'];
+
 
   return (
     <>
