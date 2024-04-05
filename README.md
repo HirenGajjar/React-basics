@@ -59,4 +59,14 @@ This is a repository for practicing react.
 
 ### Fragments
 
--
+- A function only can return a one single element, therefore using either wrapper div or fragments
+- The major disadvantage of using wrapper div, an extra div makes extra level to DOM Tree
+- Therefore using fragments instead of wrapper div it is better, as it does not add an extra node in DOM.
+
+```Javascript
+
+<React.Fragment></React.Fragment>
+
+<></>
+
+```
