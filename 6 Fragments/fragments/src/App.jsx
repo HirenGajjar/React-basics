@@ -1,26 +1,22 @@
-
+import FoodItems from './Components/FoodItems'
+import ErrorMsg from './Components/ErrorMsg'
+import Heading from './Components/Heading'
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-let food = ['a','b','c','d','e'];
-//let food =[];
 
 
-if(food.length == 0){
-  return <h3>Find something</h3>;
-}
+
+  let food = ['a','b','c','d','e'];
+
   return (
     <>
-     <h1>Healthy food</h1>
+     <Heading/>
      {
-      food.length == 0  && <h2>Find something</h2>
+        <ErrorMsg food={food}/>
      }
-      <ul className="list-group">
-            {  
-                  food.map(item => <li key={item} className="list-group-item">{item}</li>)
-            }
-      </ul>
+      <FoodItems food={food}/>
     </>
   )
 }

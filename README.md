@@ -82,4 +82,10 @@ This is a repository for practicing react.
 
 ### Conditional Rendering
 
--
+- if else / Ternary ?: / logical operators && ||
+- Enhance User experience
+- reduce unnecessary rendering
+
+### Passing data via props (properties)
+
+- parse only from parent to child
