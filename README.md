@@ -105,4 +105,23 @@ This is a repository for practicing react.
 ### Passing function via props
 
 - It is important to note that, in case of react it is easy to communicate from parent to child, however it can be tricky to communicate from child to parent, therefore use of functions as a props are important
+- Parent defines the function and child invokes it
+- It is good practice to keep the main business logic at parent and let child (small scaled components) only handle UI changes
 
+### Managing Stats
+
+- The default nature of any functional component is stateless, therefore between repainting cycles of DOM there is nothing that holds previous value of components, as props are immutable and on every change function get called and get reset, that is the reason we need states
+- state represent data that changes over the time
+- **_ STATE IS LOCAL AND PRIVATE TO THE COMPONENT _**
+- state change causes the component re-rendering
+- states are controlled by hooks (Hooks are react components, design and develop to control states)
+
+### useState
+
+- useState has two things 1. a current value and a 2.function
+
+```javascript
+let textStateArr = useState();
+let textStateVAl = textStateArr[0]; // Current value
+let setTextStateMethod = textStateArr[1]; // method
+```

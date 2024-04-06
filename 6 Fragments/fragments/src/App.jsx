@@ -3,14 +3,20 @@ import ErrorMsg from './Components/ErrorMsg'
 import Heading from './Components/Heading'
 import FoodInput from './Components/FoodInput'
 import Container from './Components/Container'
-
+import { useState } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+let [food,setFood]= useState(['a','b','c']);
 
-
-
-   let food = ['a','b','c','d','e','h'];
+const handleKeyDown =(e)=>{
+  if(e.key === 'Enter'){
+      let newFoodItem = e.target.value;
+      e.target.value="";
+      let newItems = [...food,newFoodItem];
+      setFood(newItems);
+  }
+ }
 
 
   return (
@@ -19,7 +25,7 @@ function App() {
 
       <Container>
      <Heading/>
-     <FoodInput/>
+     <FoodInput handleKeyDown={handleKeyDown}/>
      </Container>
      <Container>
      {
@@ -27,7 +33,7 @@ function App() {
 
      }
      
-      <FoodItems food={food}/>
+      <FoodItems food={food} key={food}/>
       </Container>
     </Container>
   
