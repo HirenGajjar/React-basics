@@ -100,3 +100,9 @@ This is a repository for practicing react.
 ### Handling Events
 
 - camelCase (onClick)
+- React creates synthetic events and not normal browser events, because it can be developed on any environment like node, native or IOS (watch 5:00:00 5:25:00)
+
+### Passing function via props
+
+- It is important to note that, in case of react it is easy to communicate from parent to child, however it can be tricky to communicate from child to parent, therefore use of functions as a props are important
+

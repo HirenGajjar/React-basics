@@ -1,10 +1,12 @@
 import styles from './FoodInput.module.css';
 const FoodInput = ()=>{
-    return (
+    const handleChange =(e)=>{console.log(e.target.value);}
+     return (
+   
         <>
         <input type="text" name="" id="" placeholder="Type Here"  className={styles.foodInput} 
         
-        onChange={(e)=>console.log(e)}
+        onChange={handleChange}
         
         />
         </>
