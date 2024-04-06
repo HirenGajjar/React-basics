@@ -96,3 +96,7 @@ This is a repository for practicing react.
 
 - Children is special type of props that allows passing an element or elements into components
 - The best use case of Children Props is having a code for container and passing it, and passing all other components inside it as a children props, and can be nested too.
+
+### Handling Events
+
+-
