@@ -99,4 +99,4 @@ This is a repository for practicing react.
 
 ### Handling Events
 
--
+- camelCase (onClick)
