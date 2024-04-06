@@ -1,6 +1,7 @@
 import FoodItems from './Components/FoodItems'
 import ErrorMsg from './Components/ErrorMsg'
 import Heading from './Components/Heading'
+import Container from './Components/Container'
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -12,13 +13,22 @@ function App() {
 
 
   return (
-    <>
+
+    <Container>
+
+      <Container>
      <Heading/>
+     </Container>
+     <Container>
      {
-        <ErrorMsg food={food}/>
+       <ErrorMsg food={food}/>
+
      }
+     
       <FoodItems food={food}/>
-    </>
+      </Container>
+    </Container>
+  
   )
 }
 

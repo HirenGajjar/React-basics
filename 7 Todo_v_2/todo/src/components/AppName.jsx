@@ -1,3 +1,4 @@
+import styles from './AppName.module.css';
 function AppName(){
     return <h1>Todo</h1>;
 }
