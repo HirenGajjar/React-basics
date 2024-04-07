@@ -7,7 +7,7 @@ import { useState } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-let [food,setFood]= useState(['a','b','c']);
+let [food,setFood]= useState([]);
 
 const handleKeyDown =(e)=>{
   if(e.key === 'Enter'){

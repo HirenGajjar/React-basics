@@ -1,11 +1,11 @@
 .KgItem {
-    font-weight: 900;
-    text-transform: uppercase;
+    font-weight: 500;
+
 }
 
 .KgSpan {
 
-    color: orange;
+    color: red;
 }
 
 .btns {

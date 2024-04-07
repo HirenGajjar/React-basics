@@ -116,12 +116,26 @@ This is a repository for practicing react.
 - state change causes the component re-rendering
 - states are controlled by hooks (Hooks are react components, design and develop to control states)
 
-### useState
+### useState (6:00:00-6:15:00)
 
 - useState has two things 1. a current value and a 2.function
+- It is better to create new array which will take values from current array using spread operator and add new element, instead of directly pushing new element into the original array for immutability
 
 ```javascript
 let textStateArr = useState();
 let textStateVAl = textStateArr[0]; // Current value
 let setTextStateMethod = textStateArr[1]; // method
 ```
+
+- It is better to save state as low as possible as it reduces the re-rendering of whole tree, at the same time it is also important to understand that siblings can't share the state, so the state being shared in all the element should have one common parent which manages the state.
+
+### State vs Props
+
+- State is local and mutable data within the components
+- Initialized with the component
+- Can change the over the time and cause the re-render on update
+- manage using useState hook
+
+- Props are passed through parent to child and are immutable
+- Allows communication between parent to child
+- Change in props can cause the re-rendering
