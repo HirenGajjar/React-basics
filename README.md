@@ -20,6 +20,8 @@ This is a repository for practicing react.
 - Creates small and reusable **_components_**
 - React is declarative - [write initial state and desire state :- DOM Manipulation will be taken care ]
 
+- ###### React is a JavaScript library that's used for building reactive websites. While it's not a framework, React does have a dedicated framework called Create React App that can be used to build web applications.
+
 ### Components in react
 
 - A web page is combination of small chunks of reusable code blocks
@@ -159,5 +161,3 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 - In vanilla JavaScript code change in HTML will make entire DOM re-render and make page refreshed, whereas in react using virtual DOM, and using reconciliation, on every change it updates the V-DOM first, then it compares the previous and current state of V-DOM to identify all the nodes that need to be updated,once those nodes are updated it updates the DOM
 
 - the react-DOM library and react are two separate library that functions simultaneously, more most part of work react is responsible except updating DOM where react-DOM comes into the picture, **_ the reason behind having react-DOM separately is because it can be use on cross platform development like android, ios and other web applications _**
-
-
