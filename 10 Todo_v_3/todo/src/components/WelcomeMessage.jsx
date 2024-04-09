@@ -1,8 +1,6 @@
 import '../App.css';
 
-const WelcomeMessage=()=>{
-    return (<>
-    <center className="welcome">No task left</center>
-    </>)
+const WelcomeMessage=({newTodoItems})=>{
+    return  newTodoItems.length === 0 &&   <center className="welcome">No task left</center>;
 }
 export default WelcomeMessage

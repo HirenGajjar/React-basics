@@ -183,3 +183,8 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 
 - instead of directly using spread operator inside the useState method, it is better to pass it through a function which passes a current value
 
+### Context API / React API (8:38:42)
+
+- In complex applications, where many children share common state and props, to maintain such states and props eventually leads to reach all props and state handle by root element, therefore on every update all the props/state will pass through all intermediate child even though not all of them are using those props/states. This is know as a **Prop drilling** which sometime leads to prop pollution (In React, "props pollution" refers to a situation where unnecessary props are passed down through multiple layers of components, even though some intermediate components do not need them.)
+
+- context API is shared storage among all the components
