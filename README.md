@@ -146,7 +146,7 @@ let setTextStateMethod = textStateArr[1]; // method
 
 - index.html only has two html tags, one is div with an ID of 'root' (a div is non-semantic element which is generally used as an container and means nothing) and script linked to main.js
 - main.js file generally contains all the dependencies being installed, by default it has React and React-DOM.
-- using React-DOM it creates root which gets new element by ID 'root' and uses the render method
+- using React-DOM it creates root inside div element using by ID 'root' and uses the render method
 
 ```javascript
 ReactDOM.createRoot(document.getElementById("rood")).render(
@@ -155,3 +155,9 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
   </React.StrictMode>
 );
 ```
+
+- In vanilla JavaScript code change in HTML will make entire DOM re-render and make page refreshed, whereas in react using virtual DOM, and using reconciliation, on every change it updates the V-DOM first, then it compares the previous and current state of V-DOM to identify all the nodes that need to be updated,once those nodes are updated it updates the DOM
+
+- the react-DOM library and react are two separate library that functions simultaneously, more most part of work react is responsible except updating DOM where react-DOM comes into the picture, **_ the reason behind having react-DOM separately is because it can be use on cross platform development like android, ios and other web applications _**
+
+
