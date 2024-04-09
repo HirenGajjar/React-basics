@@ -161,3 +161,16 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 - In vanilla JavaScript code change in HTML will make entire DOM re-render and make page refreshed, whereas in react using virtual DOM, and using reconciliation, on every change it updates the V-DOM first, then it compares the previous and current state of V-DOM to identify all the nodes that need to be updated,once those nodes are updated it updates the DOM
 
 - the react-DOM library and react are two separate library that functions simultaneously, more most part of work react is responsible except updating DOM where react-DOM comes into the picture, **_ the reason behind having react-DOM separately is because it can be use on cross platform development like android, ios and other web applications _**
+
+### Library vs framework
+
+- react is library whereas angular and vue are framework
+- a framework provides a complete structure and tools for building an entire application, akin to having a full toolkit, while a library offers specific functionalities that can be integrated into an application, similar to having individual tools like a hammer or a screwdriver.
+
+- library offers very specific functionality whereas framework has wide range of solution to build an application
+
+### Using forms
+
+- Button has by default type of "submit", @8:10:00
+- preventDefault()
+- 
