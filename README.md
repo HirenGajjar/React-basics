@@ -173,4 +173,13 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 
 - Button has by default type of "submit", @8:10:00
 - preventDefault()
-- 
+
+### useRef (8:16:00)
+
+- while using the useState() hook, it allows to change the state of components but the problem over here was, it re-paints the V-DOM every time there is a change in state, so to overcome this issue react introduces the useRef() hook
+- use with **ref** attribute
+
+### update state using 1.spread operator(...) 2.using function (8:35:0)
+
+- instead of directly using spread operator inside the useState method, it is better to pass it through a function which passes a current value
+

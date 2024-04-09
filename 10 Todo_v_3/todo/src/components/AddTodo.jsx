@@ -1,37 +1,37 @@
 
-import { useState } from 'react';
+import { useRef } from 'react';
 import styles from './AddTodo.module.css';
 import { IoMdAddCircle } from "react-icons/io";
 
 function AddTodo({handleNewItem}){
-let [todoName,setTodoName]=useState('');
-let [todoDueDate,setDueDate]=useState('');
 
-const handleNameChange = (e)=>{
-  setTodoName(e.target.value);
-}
-const handleDueDateChange = (e)=>{
-  setDueDate(e.target.value);
-}
+const taskRef=useRef();
+const dateRef=useRef();
 
 const addBtnClick=(e)=>{
   e.preventDefault();
-    handleNewItem(todoName,todoDueDate);
-    setDueDate("");
-    setTodoName("");
+  const taskCurrentVal = taskRef.current.value;
+  const dateCurrentVal = dateRef.current.value;
+  console.log(taskCurrentVal,dateCurrentVal);
+    handleNewItem(taskCurrentVal,dateCurrentVal);
+    taskRef.current.value="";
+    dateRef.current.value="";
 }
     return(
     <div className="container">
      
       <form className="row allrow"   onSubmit={addBtnClick}>
           <div className="col-4">
-            <input onChange={handleNameChange} 
-          type="text" placeholder='Enter task'   
-          value={todoName} /></div>
+            <input  
+            ref={taskRef}
+            type="text"
+            placeholder='Enter task'   
+             /></div>
           <div className="col-4">
-            <input onChange={handleDueDateChange} 
-          type="date"  
-          value={todoDueDate} /></div>
+            <input  
+            ref={dateRef}
+            type="date"  
+             /></div>
           <div className="col-2">
           
             <button className="btn btn-success allBtn"

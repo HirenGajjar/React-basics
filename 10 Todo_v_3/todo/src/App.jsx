@@ -8,10 +8,9 @@ import './App.css';
 
 function App() {
   const [newTodoItems, setNewTodoItems] = useState([]);
-
+  
   const handleNewItem = (todoName, todoDueDate) => {
-    const newTodoItem = { task: todoName, date: todoDueDate };
-    setNewTodoItems([...newTodoItems, newTodoItem]);
+    setNewTodoItems((currVal)=>[...currVal, { task: todoName, date: todoDueDate }]);
   }
 
 
