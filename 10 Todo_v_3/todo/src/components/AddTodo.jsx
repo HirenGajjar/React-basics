@@ -1,10 +1,11 @@
 
 import { useState } from 'react';
 import styles from './AddTodo.module.css';
+import { IoMdAddCircle } from "react-icons/io";
 
 function AddTodo({handleNewItem}){
-let [todoName,setTodoName]=useState();
-let [todoDueDate,setDueDate]=useState();
+let [todoName,setTodoName]=useState('');
+let [todoDueDate,setDueDate]=useState('');
 
 const handleNameChange = (e)=>{
   setTodoName(e.target.value);
@@ -24,16 +25,16 @@ const addBtnClick=()=>{
     <div className="col-4">
       <input onChange={handleNameChange} 
     type="text" placeholder='Enter task'   
-    value={todoName} /></div>
+    value={todoName} required/></div>
     <div className="col-4">
       <input onChange={handleDueDateChange} 
     type="date"  
-    value={todoDueDate}/></div>
+    value={todoDueDate} required/></div>
     <div className="col-2">
     
       <button className="btn btn-success allBtn"
       onClick={addBtnClick}
-      >Add</button>
+      ><IoMdAddCircle /></button>
       
       
       </div>

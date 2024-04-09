@@ -18,7 +18,6 @@ function App() {
   const handleDelete = (task)=>{
     const newTodoItem = newTodoItems.filter((item)=>item.task !== task);
     setNewTodoItems(newTodoItem);
-    console.log(task);
 
   }
   return (

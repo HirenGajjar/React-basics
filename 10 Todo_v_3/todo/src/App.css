@@ -13,6 +13,7 @@
 
 .welcome {
     margin: 0 auto;
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 400;
+    color: grey;
 }

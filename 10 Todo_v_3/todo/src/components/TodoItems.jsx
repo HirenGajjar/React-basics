@@ -8,9 +8,13 @@ const TodoItems = ({todoItems,handleDelete})=>{
             todoItems.map((todoItems)=>
             <TodoItem
             
+            key={todoItems.task}
+
             handleDelete={handleDelete}
             
-            date={todoItems.date} task={todoItems.task}/>
+            date={todoItems.date}
+            
+            task={todoItems.task}/>
         )
         }
     

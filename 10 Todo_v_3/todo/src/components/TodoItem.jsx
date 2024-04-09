@@ -1,4 +1,7 @@
 
+import { MdDeleteForever } from "react-icons/md";
+
+
 function TodoItem({task,date,handleDelete}){
     return(
         
@@ -9,7 +12,8 @@ function TodoItem({task,date,handleDelete}){
         <div className="col-2 allBtn"><button
         
         onClick={()=>handleDelete(task)}
-        className="btn btn-danger allBtn">Delete</button></div>
+        className="btn btn-danger allBtn"><MdDeleteForever />
+        </button></div>
       </div>
       </div>
     )

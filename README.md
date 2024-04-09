@@ -139,3 +139,19 @@ let setTextStateMethod = textStateArr[1]; // method
 - Props are passed through parent to child and are immutable
 - Allows communication between parent to child
 - Change in props can cause the re-rendering
+
+### React dev tools chrome extension
+
+### How react works?
+
+- index.html only has two html tags, one is div with an ID of 'root' (a div is non-semantic element which is generally used as an container and means nothing) and script linked to main.js
+- main.js file generally contains all the dependencies being installed, by default it has React and React-DOM.
+- using React-DOM it creates root which gets new element by ID 'root' and uses the render method
+
+```javascript
+ReactDOM.createRoot(document.getElementById("rood")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
