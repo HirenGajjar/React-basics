@@ -17,3 +17,22 @@
     left: 0;
 
 }
+
+.post-card {
+    margin: 1rem;
+    max-width: 30rem;
+    padding: 2rem 1rem;
+}
+
+.hashtag {
+    margin: 0 5px;
+}
+
+.reactions {
+    margin: 8px 0;
+}
+
+.create-post {
+    max-width: 80%;
+    margin: 5% 10%;
+}

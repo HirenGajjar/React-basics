@@ -3,7 +3,7 @@ import React from 'react'
 function CreatePost() {
   return (
     <>
-    <form>
+    <form className='create-post'>
   <div className="mb-3">
     <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
