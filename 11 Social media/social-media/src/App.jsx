@@ -9,17 +9,21 @@ import Post from './Components/Post';
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [selectedTab,setSelectedTab] = useState("Home")
 
   return (
     <>
 
     <div className='appContainer'>
-     <Sidebar/>
+     <Sidebar selectedTab={selectedTab}/>
       <div className='content'>
       <Header/>
-      <CreatePost/>
-      <PostList/>
+
+      {
+        selectedTab === "Home" ? <PostList/> :<CreatePost/>
+      }
+      
+      
       <Footer/>
       
      </div>
