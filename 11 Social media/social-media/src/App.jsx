@@ -9,13 +9,13 @@ import Post from './Components/Post';
 import "./App.css";
 
 function App() {
-  const [selectedTab,setSelectedTab] = useState("Home")
+  const [selectedTab,setSelectedTab] = useState()
 
   return (
     <>
 
     <div className='appContainer'>
-     <Sidebar selectedTab={selectedTab}/>
+     <Sidebar selectedTab={selectedTab} setSelectedTab={setSelectedTab}/>
       <div className='content'>
       <Header/>
 
