@@ -24,7 +24,7 @@ function Post({ post }) {
             </span>
           ))}
           <div className="alert alert-danger reactions" role="alert">
-            Total Reactions :- {post.reaction}
+            Total Reactions :- {post.reactions}
           </div>
         </div>
       </div>

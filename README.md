@@ -198,6 +198,13 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 - useReducer takes 4 things 1.state 2.dispatch 3.reducer function 4.initial state
 - it gives current state and dispatcher,
 
-### Social media 9:46
+### Social media (9:46:0 to 10:42:0)
 
-- 
+### DummyJSON
+
+- fetch() returns promise
+- default is GET and POST can be use
+- .then() ,response.json()
+- headers in API
+
+

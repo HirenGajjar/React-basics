@@ -17,6 +17,12 @@ function CreatePost() {
     const bodyText = bodyEle.current.value;
     const allReaction = reactionEle.current.value;
 
+    idEle.current.value = "";
+    titleEle.current.value = "";
+    tagsEle.current.value = "";
+    bodyEle.current.value = "";
+    reactionEle.current.value = "";
+
     addPost(usersId, postTitle, bodyText, allReaction, hashtag);
   };
 
@@ -62,14 +68,14 @@ function CreatePost() {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="reaction" className="form-label">
+          <label htmlFor="reactions" className="form-label">
             Reactions
           </label>
           <input
             ref={reactionEle}
             type="text"
             className="form-control"
-            id="reaction"
+            id="reactions"
             placeholder="Any reactions"
           />
         </div>
