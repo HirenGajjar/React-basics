@@ -197,3 +197,7 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 - offers more control on states then useState() hook
 - useReducer takes 4 things 1.state 2.dispatch 3.reducer function 4.initial state
 - it gives current state and dispatcher,
+
+### Social media 9:46
+
+- 
