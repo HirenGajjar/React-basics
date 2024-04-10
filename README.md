@@ -188,3 +188,12 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 - In complex applications, where many children share common state and props, to maintain such states and props eventually leads to reach all props and state handle by root element, therefore on every update all the props/state will pass through all intermediate child even though not all of them are using those props/states. This is know as a **Prop drilling** which sometime leads to prop pollution (In React, "props pollution" refers to a situation where unnecessary props are passed down through multiple layers of components, even though some intermediate components do not need them.)
 
 - context API is shared storage among all the components
+
+- use useState to get input, use Context API to that handles all the props and make it as an object so that it can take props and functions
+- Also it is easy to make state and pass it to the context provider that all child can access as they want
+
+### useReducer (9:15:00)
+
+- offers more control on states then useState() hook
+- useReducer takes 4 things 1.state 2.dispatch 3.reducer function 4.initial state
+- it gives current state and dispatcher,
