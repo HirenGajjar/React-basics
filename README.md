@@ -216,5 +216,15 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 ### Strict Mode
 
 - a tool for highlighting potential problems in an application
-- StrictMode does not render any visible UI. It activates additional checks and warnings for its descendants.
+- Strict Mode does not render any visible UI. It activates additional checks and warnings for its descendants.
 - Strict mode checks are run in development mode only; they do not impact the production build.
+
+### useCallback hook
+
+### useMemo hook
+
+### Custom Hook
+
+- can be use to combine multiple hooks
+
+### submit data with fetch
