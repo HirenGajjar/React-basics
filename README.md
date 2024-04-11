@@ -208,3 +208,6 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 - headers in API
 
 ### useEffect Hook (12:14:00)
+
+### Loading indicator
+
