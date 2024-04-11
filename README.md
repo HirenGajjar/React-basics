@@ -211,3 +211,4 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 
 ### Loading indicator
 
+### useEffect Hook clean up
