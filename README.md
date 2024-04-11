@@ -207,4 +207,4 @@ ReactDOM.createRoot(document.getElementById("rood")).render(
 - .then() ,response.json()
 - headers in API
 
-
+### useEffect Hook (12:14:00)
